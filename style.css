@@ -1,0 +1,123 @@
+body {
+	background: #000;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+#rel {
+	font-size: 25px;
+}
+
+div {
+	text-align: center;
+}
+
+div h2 {
+	color: #00ff48;
+	font-size: 42px;
+	font-family: cursive;
+}
+
+button {
+	width: 8em;
+	padding: 10px;
+	border: none;
+	font-size: 17px;
+	color: #fff;
+}
+
+.btn1 {
+	background: green;
+}
+
+.btn2 {
+	background: #d0d61d;
+}
+
+.btn3 {
+	background: #f00;
+}
+
+address {
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 25px;
+		margin-top: 20px;
+	}
+	button {
+		width: 5em;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 210px) {
+	button {
+		width: 5em;
+		font-size: 10px;
+	}
+	address {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 212px) {
+	button {
+		width: 8em;
+		font-size: 6px;
+	}
+
+	address {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 274px) {
+	button {
+		width: 8em;
+		font-size: 8px;
+	}
+
+	address {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 278px) {
+	button {
+		width: 8em;
+		font-size: 8px;
+	}
+
+	address {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 198px) {
+	button {
+		width: 7em;
+		font-size: 8px;
+	}
+
+	address {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+
+
